@@ -52,3 +52,8 @@ Integración con más fuentes de datos
 Modelos de machine learning más avanzados
 
 ## 👤 Autor
+
+### Tareas
+
+- [] Base de datos
+- [] Formulario web
