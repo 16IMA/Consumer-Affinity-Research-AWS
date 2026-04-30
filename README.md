@@ -55,5 +55,5 @@ Modelos de machine learning más avanzados
 
 ### Tareas
 
-- [] Base de datos
-- [] Formulario web
+- [ ] Base de datos
+- [ ] Formulario web
