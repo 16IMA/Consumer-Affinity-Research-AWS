@@ -1,0 +1,201 @@
+response_id,submitted_at,age_range,city,country,first_purchase,category,purchase_amount_range,purchase_channel,quality_score,delivery_score,support_score,ease_score,value_score,buy_again,nps_score,source_channel,improvement_text
+1,2026-02-01 09:00:00,18-25,Madrid,Spain,true,Fashion,25-50,Web,5,4,4,5,4,true,9,Instagram,More sizes available
+2,2026-02-02 10:15:00,26-35,Barcelona,Spain,false,Technology,100+,App,4,5,3,4,4,true,8,Google,Faster support response
+3,2026-02-03 11:30:00,36-45,Valencia,Spain,false,Home,50-100,Web,5,5,4,5,5,true,10,Friend,Everything perfect
+4,2026-02-04 12:45:00,46-60,Sevilla,Spain,true,Food,0-25,Physical Store,4,4,5,4,4,true,8,TikTok,Better promotions
+5,2026-02-05 14:00:00,26-35,Malaga,Spain,false,Fashion,25-50,App,3,4,3,4,3,false,6,Instagram,Improve returns process
+6,2026-02-06 09:20:00,18-25,Bilbao,Spain,true,Technology,50-100,Web,5,5,4,5,4,true,9,Google,Great shopping experience
+7,2026-02-07 10:35:00,36-45,Zaragoza,Spain,false,Home,100+,Web,4,3,4,4,3,true,7,Friend,Faster delivery
+8,2026-02-08 11:50:00,60+,Murcia,Spain,true,Food,0-25,Physical Store,5,5,5,4,5,true,10,Friend,None
+9,2026-02-09 13:05:00,26-35,Alicante,Spain,false,Fashion,50-100,App,4,4,3,5,4,true,8,Instagram,More payment methods
+10,2026-02-10 14:20:00,18-25,Granada,Spain,true,Technology,25-50,Web,5,4,4,5,5,true,9,TikTok,Excellent service
+11,2026-02-11 15:35:00,26-35,Cordoba,Spain,false,Home,50-100,Web,4,4,4,4,4,true,8,Google,Good overall
+12,2026-02-12 16:50:00,36-45,Valladolid,Spain,false,Fashion,100+,App,3,3,3,4,3,false,5,Instagram,Need faster shipping
+13,2026-02-13 09:10:00,46-60,Vigo,Spain,true,Food,0-25,Physical Store,5,5,5,5,5,true,10,Friend,Excellent attention
+14,2026-02-14 10:25:00,18-25,Gijon,Spain,true,Technology,25-50,App,4,4,3,5,4,true,8,TikTok,More accessories
+15,2026-02-15 11:40:00,26-35,Almeria,Spain,false,Fashion,50-100,Web,5,4,4,5,4,true,9,Instagram,Very satisfied
+16,2026-02-16 12:55:00,36-45,Madrid,Spain,false,Home,100+,Web,4,5,4,4,4,true,8,Google,None
+17,2026-02-17 14:10:00,46-60,Barcelona,Spain,true,Food,25-50,Physical Store,5,5,5,4,5,true,10,Friend,Keep it up
+18,2026-02-18 15:25:00,18-25,Valencia,Spain,true,Fashion,0-25,App,3,4,3,5,4,true,7,Instagram,More stock
+19,2026-02-19 16:40:00,26-35,Sevilla,Spain,false,Technology,100+,Web,5,5,4,5,4,true,9,Google,Great prices
+20,2026-02-20 09:15:00,36-45,Malaga,Spain,false,Home,50-100,App,4,4,4,4,4,true,8,Friend,None
+21,2026-02-21 10:30:00,46-60,Bilbao,Spain,true,Food,100+,Physical Store,5,5,5,5,5,true,10,TikTok,Excellent quality
+22,2026-02-22 11:45:00,18-25,Zaragoza,Spain,false,Fashion,25-50,Web,4,3,4,4,4,true,8,Instagram,Lower shipping costs
+23,2026-02-23 13:00:00,26-35,Murcia,Spain,true,Technology,50-100,App,5,4,5,5,5,true,9,Google,Intuitive app
+24,2026-02-24 14:15:00,60+,Alicante,Spain,false,Home,0-25,Web,3,2,3,3,2,false,4,Friend,Delivery was very late
+25,2026-02-25 15:30:00,36-45,Granada,Spain,true,Fashion,100+,Web,5,5,5,5,5,true,10,TikTok,Love the new collection
+26,2026-02-26 16:45:00,18-25,Madrid,Spain,false,Technology,50-100,App,4,4,4,4,4,true,8,Instagram,More tech deals
+27,2026-02-27 09:05:00,26-35,Barcelona,Spain,true,Home,25-50,Web,4,5,4,4,4,true,9,Google,Friendly support
+28,2026-02-28 10:20:00,46-60,Valencia,Spain,false,Food,50-100,Physical Store,5,5,5,5,5,true,10,Friend,Best fresh products
+29,2026-03-01 11:35:00,36-45,Sevilla,Spain,true,Fashion,100+,App,2,3,2,3,2,false,3,Instagram,Damaged item received
+30,2026-03-02 12:50:00,18-25,Malaga,Spain,false,Technology,0-25,Web,5,5,4,5,5,true,9,TikTok,Very fast
+31,2026-03-03 14:05:00,26-35,Bilbao,Spain,true,Home,25-50,Web,4,4,4,4,4,true,8,Google,Clearer instructions
+32,2026-03-04 15:20:00,60+,Zaragoza,Spain,false,Food,50-100,Physical Store,5,5,5,5,5,true,10,Friend,None
+33,2026-03-05 16:35:00,18-25,Murcia,Spain,true,Fashion,100+,App,4,4,3,4,4,true,8,Instagram,Loyalty program please
+34,2026-03-06 09:12:00,36-45,Alicante,Spain,false,Technology,25-50,Web,5,5,5,5,5,true,10,Google,Perfect
+35,2026-03-07 10:27:00,26-35,Granada,Spain,true,Home,50-100,App,3,3,4,3,3,false,6,TikTok,App crashed once
+36,2026-03-08 11:42:00,46-60,Madrid,Spain,false,Food,100+,Physical Store,5,4,5,5,5,true,9,Friend,Great variety
+37,2026-03-09 12:57:00,18-25,Barcelona,Spain,true,Fashion,25-50,Web,4,4,4,4,4,true,8,Instagram,Nice packaging
+38,2026-03-10 14:12:00,26-35,Valencia,Spain,false,Technology,50-100,App,5,5,4,5,5,true,10,Google,None
+39,2026-03-11 15:27:00,36-45,Sevilla,Spain,true,Home,0-25,Web,4,4,3,4,4,true,8,Friend,Slightly expensive
+40,2026-03-12 16:42:00,60+,Malaga,Spain,false,Food,25-50,Physical Store,5,5,5,5,5,true,10,TikTok,Excellent
+41,2026-03-13 09:18:00,18-25,Bilbao,Spain,true,Fashion,50-100,Web,4,3,4,4,4,true,7,Instagram,Shipping was slow
+42,2026-03-14 10:33:00,26-35,Zaragoza,Spain,false,Technology,100+,App,5,5,5,5,5,true,10,Google,Will buy again
+43,2026-03-15 11:48:00,46-60,Murcia,Spain,true,Home,25-50,Web,4,4,4,4,4,true,8,Friend,Good quality
+44,2026-03-16 13:03:00,36-45,Alicante,Spain,false,Food,50-100,Physical Store,5,5,5,5,5,true,9,TikTok,Friendly staff
+45,2026-03-17 14:18:00,18-25,Granada,Spain,true,Fashion,0-25,App,2,2,3,2,2,false,3,Instagram,Wrong size sent
+46,2026-03-18 15:33:00,26-35,Madrid,Spain,false,Technology,25-50,Web,4,4,4,4,4,true,8,Google,None
+47,2026-03-19 16:48:00,60+,Barcelona,Spain,true,Home,50-100,App,5,5,5,5,5,true,10,Friend,Very easy to use
+48,2026-03-20 09:22:00,36-45,Valencia,Spain,false,Food,100+,Physical Store,4,4,4,4,4,true,8,TikTok,Pricey but good
+49,2026-03-21 10:37:00,18-25,Sevilla,Spain,true,Fashion,50-100,Web,5,5,4,5,5,true,9,Instagram,Cool designs
+50,2026-03-22 11:52:00,26-35,Malaga,Spain,false,Technology,0-25,App,4,3,4,4,4,true,7,Google,Update the app
+51,2026-03-23 13:07:00,46-60,Bilbao,Spain,true,Home,25-50,Web,5,5,5,5,5,true,10,Friend,Satisfied
+52,2026-03-24 14:22:00,18-25,Zaragoza,Spain,false,Food,50-100,Physical Store,4,4,4,4,4,true,8,TikTok,None
+53,2026-03-25 15:37:00,36-45,Murcia,Spain,true,Fashion,100+,App,5,4,5,5,5,true,9,Instagram,Better than others
+54,2026-03-26 16:52:00,26-35,Alicante,Spain,false,Technology,25-50,Web,3,3,3,3,3,false,5,Google,Confusing website
+55,2026-03-27 09:24:00,60+,Granada,Spain,true,Home,50-100,App,5,5,5,5,5,true,10,Friend,Perfect delivery
+56,2026-03-28 10:39:00,18-25,Madrid,Spain,false,Food,0-25,Physical Store,4,4,4,4,4,true,8,TikTok,More vegan options
+57,2026-03-29 11:54:00,26-35,Barcelona,Spain,true,Fashion,50-100,Web,5,5,4,5,5,true,9,Instagram,None
+58,2026-03-30 13:09:00,36-45,Valencia,Spain,false,Technology,100+,App,4,4,4,4,4,true,8,Google,Good service
+59,2026-03-31 14:24:00,46-60,Sevilla,Spain,true,Home,25-50,Web,5,5,5,5,5,true,10,Friend,Highly recommended
+60,2026-04-01 15:39:00,18-25,Malaga,Spain,false,Food,50-100,Physical Store,2,2,2,3,2,false,2,TikTok,Terrible queue
+61,2026-04-01 16:54:00,26-35,Bilbao,Spain,true,Fashion,0-25,App,4,4,4,4,4,true,8,Instagram,Fast checkout
+62,2026-04-02 09:30:00,60+,Zaragoza,Spain,false,Technology,50-100,Web,5,5,5,5,5,true,10,Google,Excellent
+63,2026-04-02 10:45:00,36-45,Murcia,Spain,true,Home,100+,App,4,3,4,4,4,true,7,Friend,Box was open
+64,2026-04-03 12:00:00,18-25,Alicante,Spain,false,Food,25-50,Physical Store,5,5,4,5,5,true,9,TikTok,Great discounts
+65,2026-04-03 13:15:00,26-35,Granada,Spain,true,Fashion,50-100,Web,4,4,4,4,4,true,8,Instagram,None
+66,2026-04-04 14:30:00,46-60,Madrid,Spain,false,Technology,100+,App,5,5,5,5,5,true,10,Google,Top tier
+67,2026-04-04 15:45:00,18-25,Barcelona,Spain,true,Home,0-25,Web,3,4,3,4,3,false,6,Friend,Took too long
+68,2026-04-05 17:00:00,26-35,Valencia,Spain,false,Food,25-50,Physical Store,5,5,5,5,5,true,9,TikTok,Freshness 10/10
+69,2026-04-06 09:35:00,36-45,Sevilla,Spain,true,Fashion,50-100,App,4,4,4,4,4,true,8,Instagram,Good quality
+70,2026-04-06 10:50:00,60+,Malaga,Spain,false,Technology,100+,Web,5,5,5,5,5,true,10,Google,None
+71,2026-04-07 12:05:00,18-25,Bilbao,Spain,true,Home,25-50,App,4,3,4,4,4,true,7,Friend,Improve tracking
+72,2026-04-07 13:20:00,26-35,Zaragoza,Spain,false,Food,50-100,Physical Store,5,5,4,5,5,true,9,TikTok,Great store
+73,2026-04-08 14:35:00,46-60,Murcia,Spain,true,Fashion,100+,Web,5,5,5,5,5,true,10,Instagram,Love it
+74,2026-04-08 15:50:00,36-45,Alicante,Spain,false,Technology,0-25,App,3,3,2,3,3,false,4,Google,Support unhelpful
+75,2026-04-09 17:05:00,18-25,Granada,Spain,true,Home,25-50,Web,4,4,4,4,4,true,8,Friend,Everything okay
+76,2026-04-10 09:40:00,26-35,Madrid,Spain,false,Food,50-100,Physical Store,5,5,5,5,5,true,10,TikTok,None
+77,2026-04-10 10:55:00,60+,Barcelona,Spain,true,Fashion,100+,App,4,4,4,4,4,true,8,Instagram,Classic style
+78,2026-04-11 12:10:00,36-45,Valencia,Spain,false,Technology,25-50,Web,5,5,4,5,5,true,9,Google,Very fast
+79,2026-04-11 13:25:00,18-25,Sevilla,Spain,true,Home,50-100,App,4,3,4,4,4,true,7,Friend,Minor scratches
+80,2026-04-12 14:40:00,26-35,Malaga,Spain,false,Food,100+,Physical Store,5,5,5,5,5,true,10,TikTok,Fantastic
+81,2026-04-12 15:55:00,46-60,Bilbao,Spain,true,Fashion,25-50,Web,4,4,4,4,4,true,8,Instagram,None
+82,2026-04-13 17:10:00,18-25,Zaragoza,Spain,false,Technology,50-100,App,5,5,5,5,5,true,9,Google,Awesome
+83,2026-04-14 09:45:00,36-45,Murcia,Spain,true,Home,0-25,Web,2,2,3,2,2,false,3,Friend,Never arrived
+84,2026-04-14 11:00:00,26-35,Alicante,Spain,false,Food,25-50,Physical Store,5,5,4,5,5,true,9,TikTok,Best in town
+85,2026-04-15 12:15:00,60+,Granada,Spain,true,Fashion,50-100,App,4,4,4,4,4,true,8,Instagram,Elegant
+86,2026-04-15 13:30:00,18-25,Madrid,Spain,false,Technology,100+,Web,5,5,5,5,5,true,10,Google,None
+87,2026-04-16 14:45:00,26-35,Barcelona,Spain,true,Home,25-50,App,4,4,3,4,4,true,8,Friend,Friendly
+88,2026-04-16 16:00:00,36-45,Valencia,Spain,false,Food,50-100,Physical Store,5,5,5,5,5,true,10,TikTok,Great organic choice
+89,2026-04-17 17:15:00,46-60,Sevilla,Spain,true,Fashion,100+,Web,3,3,4,3,3,false,5,Instagram,Too expensive
+90,2026-04-18 09:50:00,18-25,Malaga,Spain,false,Technology,0-25,App,5,5,4,5,5,true,9,Google,Fast delivery
+91,2026-04-18 11:05:00,26-35,Bilbao,Spain,true,Home,25-50,Web,4,4,4,4,4,true,8,Friend,Good price
+92,2026-04-19 12:20:00,60+,Zaragoza,Spain,false,Food,50-100,Physical Store,5,5,5,5,5,true,10,TikTok,Excellent
+93,2026-04-19 13:35:00,36-45,Murcia,Spain,true,Fashion,100+,App,4,4,3,4,4,true,8,Instagram,More colors
+94,2026-04-20 14:50:00,18-25,Alicante,Spain,false,Technology,25-50,Web,5,5,5,5,5,true,10,Google,Perfect service
+95,2026-04-20 16:05:00,26-35,Granada,Spain,true,Home,50-100,App,3,3,2,3,3,false,4,Friend,Delays in shipping
+96,2026-04-21 09:55:00,46-60,Madrid,Spain,false,Food,100+,Physical Store,5,5,5,5,5,true,9,TikTok,Good
+97,2026-04-21 11:10:00,18-25,Barcelona,Spain,true,Fashion,25-50,Web,4,4,4,4,4,true,8,Instagram,None
+98,2026-04-22 12:25:00,26-35,Valencia,Spain,false,Technology,50-100,App,5,5,5,5,5,true,10,Google,Love the brand
+99,2026-04-22 13:40:00,36-45,Sevilla,Spain,true,Home,0-25,Web,4,4,4,4,4,true,8,Friend,Easy
+100,2026-04-23 14:55:00,60+,Malaga,Spain,false,Food,25-50,Physical Store,5,5,5,5,5,true,10,TikTok,Always fresh
+101,2026-02-05 10:00:00,18-25,Bilbao,Spain,true,Fashion,50-100,Web,4,3,4,4,4,true,7,Instagram,Long wait
+102,2026-02-06 11:15:00,26-35,Zaragoza,Spain,false,Technology,100+,App,5,5,5,5,5,true,10,Google,Excellent app
+103,2026-02-07 12:30:00,46-60,Murcia,Spain,true,Home,25-50,Web,4,4,4,4,4,true,8,Friend,None
+104,2026-02-08 13:45:00,36-45,Alicante,Spain,false,Food,50-100,Physical Store,5,5,5,5,5,true,9,TikTok,Staff is great
+105,2026-02-09 15:00:00,18-25,Granada,Spain,true,Fashion,0-25,App,2,3,2,2,2,false,3,Instagram,Bad fabric
+106,2026-02-10 16:15:00,26-35,Madrid,Spain,false,Technology,25-50,Web,4,4,4,4,4,true,8,Google,Satisfied
+107,2026-02-11 09:10:00,60+,Barcelona,Spain,true,Home,50-100,App,5,5,5,5,5,true,10,Friend,Perfect
+108,2026-02-12 10:25:00,36-45,Valencia,Spain,false,Food,100+,Physical Store,4,4,4,4,4,true,8,TikTok,None
+109,2026-02-13 11:40:00,18-25,Sevilla,Spain,true,Fashion,50-100,Web,5,5,4,5,5,true,9,Instagram,Great style
+110,2026-02-14 12:55:00,26-35,Malaga,Spain,false,Technology,0-25,App,4,4,4,4,4,true,7,Google,Better search filter
+111,2026-02-15 14:10:00,46-60,Bilbao,Spain,true,Home,25-50,Web,5,5,5,5,5,true,10,Friend,None
+112,2026-02-16 15:25:00,18-25,Zaragoza,Spain,false,Food,50-100,Physical Store,4,4,4,4,4,true,8,TikTok,Good variety
+113,2026-02-17 16:40:00,36-45,Murcia,Spain,true,Fashion,100+,App,5,4,5,5,5,true,9,Instagram,Keep it up
+114,2026-02-18 09:20:00,26-35,Alicante,Spain,false,Technology,25-50,Web,3,3,3,3,3,false,5,Google,Hard to navigate
+115,2026-02-19 10:35:00,60+,Granada,Spain,true,Home,50-100,App,5,5,5,5,5,true,10,Friend,Amazing
+116,2026-02-20 11:50:00,18-25,Madrid,Spain,false,Food,0-25,Physical Store,4,4,4,4,4,true,8,TikTok,More stock
+117,2026-02-21 13:05:00,26-35,Barcelona,Spain,true,Fashion,50-100,Web,5,5,4,5,5,true,9,Instagram,None
+118,2026-02-22 14:20:00,36-45,Valencia,Spain,false,Technology,100+,App,4,4,4,4,4,true,8,Google,Good price
+119,2026-02-23 15:35:00,46-60,Sevilla,Spain,true,Home,25-50,Web,5,5,5,5,5,true,10,Friend,None
+120,2026-02-24 16:50:00,18-25,Malaga,Spain,false,Food,50-100,Physical Store,3,2,3,3,2,false,4,TikTok,No staff available
+121,2026-02-25 09:30:00,26-35,Bilbao,Spain,true,Fashion,0-25,App,4,4,4,4,4,true,8,Instagram,Fast
+122,2026-02-26 10:45:00,60+,Zaragoza,Spain,false,Technology,50-100,Web,5,5,5,5,5,true,10,Google,Perfect
+123,2026-02-27 12:00:00,36-45,Murcia,Spain,true,Home,100+,App,4,3,4,4,4,true,7,Friend,Broken part
+124,2026-02-28 13:15:00,18-25,Alicante,Spain,false,Food,25-50,Physical Store,5,5,4,5,5,true,9,TikTok,Love the deals
+125,2026-03-01 14:30:00,26-35,Granada,Spain,true,Fashion,50-100,Web,4,4,4,4,4,true,8,Instagram,None
+126,2026-03-02 15:45:00,46-60,Madrid,Spain,false,Technology,100+,App,5,5,5,5,5,true,10,Google,Excellent
+127,2026-03-03 17:00:00,18-25,Barcelona,Spain,true,Home,0-25,Web,4,4,3,4,4,false,7,Friend,Late shipping
+128,2026-03-04 09:40:00,26-35,Valencia,Spain,false,Food,25-50,Physical Store,5,5,5,5,5,true,9,TikTok,None
+129,2026-03-05 10:55:00,36-45,Sevilla,Spain,true,Fashion,50-100,App,4,4,4,4,4,true,8,Instagram,Good
+130,2026-03-06 12:10:00,60+,Malaga,Spain,false,Technology,100+,Web,5,5,5,5,5,true,10,Google,Excellent
+131,2026-03-07 13:25:00,18-25,Bilbao,Spain,true,Home,25-50,App,4,3,4,4,4,true,7,Friend,Tracking issues
+132,2026-03-08 14:40:00,26-35,Zaragoza,Spain,false,Food,50-100,Physical Store,5,5,4,5,5,true,9,TikTok,Great
+133,2026-03-09 15:55:00,46-60,Murcia,Spain,true,Fashion,100+,Web,5,5,5,5,5,true,10,Instagram,Perfect
+134,2026-03-10 17:10:00,36-45,Alicante,Spain,false,Technology,0-25,App,3,3,2,3,3,false,4,Google,Support bad
+135,2026-03-11 09:50:00,18-25,Granada,Spain,true,Home,25-50,Web,4,4,4,4,4,true,8,Friend,OK
+136,2026-03-12 11:05:00,26-35,Madrid,Spain,false,Food,50-100,Physical Store,5,5,5,5,5,true,10,TikTok,None
+137,2026-03-13 12:20:00,60+,Barcelona,Spain,true,Fashion,100+,App,4,4,4,4,4,true,8,Instagram,Good
+138,2026-03-14 13:35:00,36-45,Valencia,Spain,false,Technology,25-50,Web,5,5,4,5,5,true,9,Google,Fast
+139,2026-03-15 14:50:00,18-25,Sevilla,Spain,true,Home,50-100,App,4,3,4,4,4,true,7,Friend,Minor issue
+140,2026-03-16 16:05:00,26-35,Malaga,Spain,false,Food,100+,Physical Store,5,5,5,5,5,true,10,TikTok,Love it
+141,2026-03-17 09:15:00,46-60,Bilbao,Spain,true,Fashion,25-50,Web,4,4,4,4,4,true,8,Instagram,None
+142,2026-03-18 10:30:00,18-25,Zaragoza,Spain,false,Technology,50-100,App,5,5,5,5,5,true,9,Google,Great
+143,2026-03-19 11:45:00,36-45,Murcia,Spain,true,Home,0-25,Web,2,2,3,2,2,false,3,Friend,Lost package
+144,2026-03-20 13:00:00,26-35,Alicante,Spain,false,Food,25-50,Physical Store,5,5,4,5,5,true,9,TikTok,Best fresh
+145,2026-03-21 14:15:00,60+,Granada,Spain,true,Fashion,50-100,App,4,4,4,4,4,true,8,Instagram,None
+146,2026-03-22 15:30:00,18-25,Madrid,Spain,false,Technology,100+,Web,5,5,5,5,5,true,10,Google,Perfect
+147,2026-03-23 16:45:00,26-35,Barcelona,Spain,true,Home,25-50,App,4,4,3,4,4,true,8,Friend,Friendly
+148,2026-03-24 09:25:00,36-45,Valencia,Spain,false,Food,50-100,Physical Store,5,5,5,5,5,true,10,TikTok,None
+149,2026-03-25 10:40:00,46-60,Sevilla,Spain,true,Fashion,100+,Web,3,3,4,3,3,false,5,Instagram,Expensive
+150,2026-03-26 11:55:00,18-25,Malaga,Spain,false,Technology,0-25,App,5,5,4,5,5,true,9,Google,Fast
+151,2026-03-27 13:10:00,26-35,Bilbao,Spain,true,Home,25-50,Web,4,4,4,4,4,true,8,Friend,Good
+152,2026-03-28 14:25:00,60+,Zaragoza,Spain,false,Food,50-100,Physical Store,5,5,5,5,5,true,10,TikTok,Great
+153,2026-03-29 15:40:00,36-45,Murcia,Spain,true,Fashion,100+,App,4,4,3,4,4,true,8,Instagram,More sizes
+154,2026-03-30 16:55:00,18-25,Alicante,Spain,false,Technology,25-50,Web,5,5,5,5,5,true,10,Google,Top
+155,2026-03-31 09:35:00,26-35,Granada,Spain,true,Home,50-100,App,3,3,2,3,3,false,4,Friend,Slow delivery
+156,2026-04-01 10:50:00,46-60,Madrid,Spain,false,Food,100+,Physical Store,5,5,5,5,5,true,9,TikTok,None
+157,2026-04-02 12:05:00,18-25,Barcelona,Spain,true,Fashion,25-50,Web,4,4,4,4,4,true,8,Instagram,None
+158,2026-04-03 13:20:00,26-35,Valencia,Spain,false,Technology,50-100,App,5,5,5,5,5,true,10,Google,Love it
+159,2026-04-04 14:35:00,36-45,Sevilla,Spain,true,Home,0-25,Web,4,4,4,4,4,true,8,Friend,Easy
+160,2026-04-05 15:50:00,60+,Malaga,Spain,false,Food,25-50,Physical Store,5,5,5,5,5,true,10,TikTok,Fresh
+161,2026-04-06 17:05:00,18-25,Bilbao,Spain,true,Fashion,50-100,Web,4,3,4,4,4,true,7,Instagram,Wait time
+162,2026-04-07 09:45:00,26-35,Zaragoza,Spain,false,Technology,100+,App,5,5,5,5,5,true,10,Google,Excellent
+163,2026-04-08 11:00:00,46-60,Murcia,Spain,true,Home,25-50,Web,4,4,4,4,4,true,8,Friend,None
+164,2026-04-09 12:15:00,36-45,Alicante,Spain,false,Food,50-100,Physical Store,5,5,5,5,5,true,9,TikTok,Great
+165,2026-04-10 13:30:00,18-25,Granada,Spain,true,Fashion,0-25,App,2,3,2,2,2,false,3,Instagram,Fabric issue
+166,2026-04-11 14:45:00,26-35,Madrid,Spain,false,Technology,25-50,Web,4,4,4,4,4,true,8,Google,Good
+167,2026-04-12 16:00:00,60+,Barcelona,Spain,true,Home,50-100,App,5,5,5,5,5,true,10,Friend,Perfect
+168,2026-04-13 09:55:00,36-45,Valencia,Spain,false,Food,100+,Physical Store,4,4,4,4,4,true,8,TikTok,None
+169,2026-04-14 11:10:00,18-25,Sevilla,Spain,true,Fashion,50-100,Web,5,5,4,5,5,true,9,Instagram,Style
+170,2026-04-15 12:25:00,26-35,Malaga,Spain,false,Technology,0-25,App,4,4,4,4,4,true,7,Google,Filters
+171,2026-04-16 13:40:00,46-60,Bilbao,Spain,true,Home,25-50,Web,5,5,5,5,5,true,10,Friend,None
+172,2026-04-17 14:55:00,18-25,Zaragoza,Spain,false,Food,50-100,Physical Store,4,4,4,4,4,true,8,TikTok,Variety
+173,2026-04-18 16:10:00,36-45,Murcia,Spain,true,Fashion,100+,App,5,4,5,5,5,true,9,Instagram,Keep up
+174,2026-04-19 17:25:00,26-35,Alicante,Spain,false,Technology,25-50,Web,3,3,3,3,3,false,5,Google,Nav
+175,2026-04-20 09:05:00,60+,Granada,Spain,true,Home,50-100,App,5,5,5,5,5,true,10,Friend,Amazing
+176,2026-04-21 10:20:00,18-25,Madrid,Spain,false,Food,0-25,Physical Store,4,4,4,4,4,true,8,TikTok,Stock
+177,2026-04-22 11:35:00,26-35,Barcelona,Spain,true,Fashion,50-100,Web,5,5,4,5,5,true,9,Instagram,None
+178,2026-04-23 12:50:00,36-45,Valencia,Spain,false,Technology,100+,App,4,4,4,4,4,true,8,Google,Price
+179,2026-04-24 14:05:00,46-60,Sevilla,Spain,true,Home,25-50,Web,5,5,5,5,5,true,10,Friend,None
+180,2026-04-25 15:20:00,18-25,Malaga,Spain,false,Food,50-100,Physical Store,3,2,3,3,2,false,4,TikTok,No staff
+181,2026-04-26 16:35:00,26-35,Bilbao,Spain,true,Fashion,0-25,App,4,4,4,4,4,true,8,Instagram,Fast
+182,2026-04-27 09:40:00,60+,Zaragoza,Spain,false,Technology,50-100,Web,5,5,5,5,5,true,10,Google,Perfect
+183,2026-04-27 10:55:00,36-45,Murcia,Spain,true,Home,100+,App,4,3,4,4,4,true,7,Friend,Broken
+184,2026-04-28 12:10:00,18-25,Alicante,Spain,false,Food,25-50,Physical Store,5,5,4,5,5,true,9,TikTok,Deals
+185,2026-04-28 13:25:00,26-35,Granada,Spain,true,Fashion,50-100,Web,4,4,4,4,4,true,8,Instagram,None
+186,2026-04-28 14:40:00,46-60,Madrid,Spain,false,Technology,100+,App,5,5,5,5,5,true,10,Google,Excellent
+187,2026-04-28 15:55:00,18-25,Barcelona,Spain,true,Home,0-25,Web,4,4,3,4,4,false,7,Friend,Shipping
+188,2026-04-29 09:10:00,26-35,Valencia,Spain,false,Food,25-50,Physical Store,5,5,5,5,5,true,9,TikTok,None
+189,2026-04-29 10:25:00,36-45,Sevilla,Spain,true,Fashion,50-100,App,4,4,4,4,4,true,8,Instagram,Good
+190,2026-04-29 11:40:00,60+,Malaga,Spain,false,Technology,100+,Web,5,5,5,5,5,true,10,Google,Excellent
+191,2026-04-29 12:55:00,18-25,Bilbao,Spain,true,Home,25-50,App,4,3,4,4,4,true,7,Friend,Tracking
+192,2026-04-30 09:15:00,26-35,Zaragoza,Spain,false,Food,50-100,Physical Store,5,5,4,5,5,true,9,TikTok,Great
+193,2026-04-30 10:30:00,46-60,Murcia,Spain,true,Fashion,100+,Web,5,5,5,5,5,true,10,Instagram,Perfect
+194,2026-04-30 11:45:00,36-45,Alicante,Spain,false,Technology,0-25,App,3,3,2,3,3,false,4,Google,Support
+195,2026-04-30 13:00:00,18-25,Granada,Spain,true,Home,25-50,Web,4,4,4,4,4,true,8,Friend,OK
+196,2026-04-30 14:15:00,26-35,Madrid,Spain,false,Food,50-100,Physical Store,5,5,5,5,5,true,10,TikTok,None
+197,2026-04-30 15:30:00,60+,Barcelona,Spain,true,Fashion,100+,App,4,4,4,4,4,true,8,Instagram,Good
+198,2026-04-30 16:45:00,36-45,Valencia,Spain,false,Technology,25-50,Web,5,5,4,5,5,true,9,Google,Fast
+199,2026-04-30 09:50:00,18-25,Sevilla,Spain,true,Home,50-100,App,4,3,4,4,4,true,7,Friend,Issue
+200,2026-04-30 10:00:00,26-35,Malaga,Spain,false,Food,100+,Physical Store,5,5,5,5,5,true,10,TikTok,Love it
