@@ -29,11 +29,11 @@ document.getElementById('survey-form').addEventListener('submit', async (event) 
         });
 
         if (respuesta.ok) {
-            alert('¡Gracias! Tus datos ya están en AWS.');
+            alert('¡Gracias por tu opinión!.');
             formulario.reset(); // Limpia el formulario
         }
     } catch (error) {
-        alert('Hubo un error. Revisa la consola (F12).');
+        alert('Hubo un error al subir tus datos.');
         console.log(error);
     }
 });
