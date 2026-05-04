@@ -1,0 +1,88 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'Despliegue automatizado: S3 + EC2 con Rol existente y Auto-configuración de PHP'
+
+Parameters:
+  ExistingInstanceProfileName:
+    Type: String
+    Default: EMR_EC2_DefaultRole
+    Description: El nombre del Instance Profile (Rol) que ya existe en tu cuenta.
+
+  BucketName:
+    Type: String
+    Default: survey-data-consumer-affinity-research-grupo1
+    Description: Nombre del bucket para recibir los JSON.
+
+Resources:
+  # 1. El Bucket de S3
+  SurveyDataBucket:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      BucketName: !Ref BucketName
+
+  # 2. Grupo de Seguridad
+  SurveySecurityGroup:
+    Type: 'AWS::EC2::SecurityGroup'
+    Properties:
+      GroupDescription: Enable HTTP access
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 80
+          ToPort: 80
+          CidrIp: 0.0.0.0/0
+        - IpProtocol: tcp
+          FromPort: 22
+          ToPort: 22
+          CidrIp: 0.0.0.0/0
+
+  # 3. La Instancia EC2
+  SurveyServer:
+    Type: 'AWS::EC2::Instance'
+    Properties:
+      InstanceType: t2.micro
+      IamInstanceProfile: !Ref ExistingInstanceProfileName
+      ImageId: ami-0c101f26f147fa7fd # Amazon Linux 2023
+      SecurityGroupIds:
+        - !Ref SurveySecurityGroup
+      UserData:
+        Fn::Base64: !Sub |
+          #!/bin/bash
+          # 1. Instalación de software
+          dnf update -y
+          dnf install -y httpd php php-json
+          
+          # 2. Configuración de permisos para /var/www/html
+          usermod -a -G apache ec2-user
+          chown -R ec2-user:apache /var/www/html
+          chmod -R 775 /var/www/html
+          
+          # 3. Crear el archivo enviar.php automáticamente
+          cat <<'EOF' > /var/www/html/enviar.php
+          <?php
+          $input = file_get_contents('php://input');
+          $datos = json_decode($input, true);
+          if ($datos) {
+              $bucket = "${BucketName}";
+              $nombreArchivo = "registros/encuesta_" . date('Y-m-d_H-i-s') . "_" . uniqid() . ".json";
+              $tempFile = "/tmp/dato.json";
+              file_put_contents($tempFile, $input);
+              exec("aws s3 cp $tempFile s3://$bucket/$nombreArchivo 2>&1", $output, $return_var);
+              unlink($tempFile);
+              header('Content-Type: application/json');
+              echo json_encode(["status" => ($return_var === 0 ? "ok" : "error")]);
+          }
+          ?>
+          EOF
+
+          # 4. (Opcional) Aquí podrías meter tu index.html y script.js con cat <<'EOF'
+          
+          # 5. Iniciar Servidor
+          systemctl start httpd
+          systemctl enable httpd
+
+Outputs:
+  PublicIP:
+    Description: IP pública de la nueva instancia
+    Value: !GetAtt SurveyServer.PublicIp
+  S3URL:
+    Description: Bucket creado
+    Value: !Ref SurveyDataBucket
