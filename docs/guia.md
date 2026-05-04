@@ -100,7 +100,7 @@ CREATE DATABASE IF NOT EXISTS survey_db;
 3. Data source: Add a data source → S3 → S3 path → Browse S3 → click link `survey-data-consumer...` → seleccionamos `registros/` → choose → add an S3 data source → Crawl all sub-folders → Add ab S3 data source → Next
 4. IAM Role: `LabRole`
 5. Target database: `survey_db`
-6. Schedule: On demand (o cron `0/5 * * * ? *` para cada 5 minutos) (on demand = manual)
+6. Schedule: On demand (on demand = hacer cada vez "Run Crawler" manualmente)
 7. Create crawler → Run crawler
 8. Esperar a que ponga "Completed"
 
