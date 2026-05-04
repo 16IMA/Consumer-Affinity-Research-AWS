@@ -10,7 +10,8 @@ document.getElementById('survey-form').addEventListener('submit', async (event) 
     // 3. Preparar el "paquete" para AWS (Payload)
     const paquete = {
         ...datos, // Copia todo lo del formulario (nombre, ciudad, etc.)
-        response_id: self.crypto.randomUUID(), // Crea un ID único automático
+        // response_id: self.crypto.randomUUID(), // Crea un ID único automático. Cambio de código para que sirva en HTTP
+        response_id: 'res-' + Date.now() + '-' + Math.floor(Math.random() * 1000),
         submitted_at: new Date().toISOString(), // Guarda la fecha y hora exacta
         
         // Convertimos a número lo que Athena necesita como número
@@ -21,18 +22,18 @@ document.getElementById('survey-form').addEventListener('submit', async (event) 
 
     // 4. Enviar el paquete a la nube
     try {
-        const respuesta = await fetch('TU_URL_DE_API_GATEWAY', {
+        const respuesta = await fetch('enviar.php', {
             method: 'POST',
             body: JSON.stringify(paquete), // Convertimos el objeto en texto para el envío
             headers: { 'Content-Type': 'application/json' }
         });
 
         if (respuesta.ok) {
-            alert('¡Gracias! Tus datos ya están en AWS.');
+            alert('¡Gracias por tu opinión!.');
             formulario.reset(); // Limpia el formulario
         }
     } catch (error) {
-        alert('Hubo un error. Revisa la consola (F12).');
+        alert('Hubo un error al subir tus datos.');
         console.log(error);
     }
 });

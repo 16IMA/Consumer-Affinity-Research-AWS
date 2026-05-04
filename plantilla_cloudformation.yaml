@@ -1,0 +1,72 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: S3 + Glue + Athena
+
+Resources:
+
+  # 🌐 Frontend Bucket
+  WebBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: survey-web-consumer-affinity-research
+      WebsiteConfiguration:
+        IndexDocument: index.html
+
+  # 📦 Data Bucket
+  DataBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: survey-data-consumer-affinity-research
+
+  # 📊 Athena Results Bucket
+  AthenaResultsBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: athena-results-consumer-affinity-research
+
+  # 🧠 Glue Database
+  GlueDatabase:
+    Type: AWS::Glue::Database
+    Properties:
+      CatalogId: !Ref AWS::AccountId
+      DatabaseInput:
+        Name: surveys_db
+
+Outputs:
+
+  WebBucketName:
+    Value: !Ref WebBucket
+
+  DataBucketName:
+    Value: !Ref DataBucket
+
+  AthenaResultsBucketName:
+    Value: !Ref AthenaResultsBucket
+
+  GlueDatabaseName:
+    Value: surveys_db
+
+  AthenaInstructions:
+    Value: !Sub |
+      1. Go to Athena
+      2. Set query result location to: s3://${AthenaResultsBucket}/
+      3. Create table with:
+      
+      CREATE EXTERNAL TABLE surveys (
+        id_cliente string,
+        fecha string,
+        edad int,
+        ciudad string,
+        primera_compra boolean,
+        categoria string,
+        importe double,
+        calidad int,
+        entrega int,
+        soporte int,
+        recompra boolean,
+        nps int,
+        year int,
+        month int
+      )
+      ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe'
+      WITH SERDEPROPERTIES ('field.delim'=',')
+      LOCATION 's3://${DataBucket}/surveys/';
