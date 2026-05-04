@@ -5,7 +5,7 @@ $datos = json_decode($input, true);
 
 if ($datos) {
     // 2. Configurar destino
-    $bucket = //"survey-data-consumer-affinity-research-grupo1";  COLOCAR NOMBRE DEL S3
+    $bucket = "survey-data-consumer-affinity-research-grupo1";  //COLOCAR NOMBRE DEL S3
     // Usamos la fecha y un ID único para el nombre del archivo
     $nombreArchivo = "registros/encuesta_" . date('Y-m-d_H-i-s') . "_" . uniqid() . ".json";
     
