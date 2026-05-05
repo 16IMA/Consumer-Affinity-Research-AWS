@@ -1,0 +1,73 @@
+-- =========================================
+-- 1. MEDIA DEL NPS SCORE
+-- =========================================
+SELECT 
+    ROUND(AVG(nps_score), 2) AS media_nps
+FROM survey_database.registros;
+
+
+-- =========================================
+-- 2. CATEGORÍA MÁS FRECUENTE
+--    + % de personas que volverían a comprar
+-- =========================================
+WITH top_category AS (
+    SELECT category
+    FROM survey_database.registros
+    GROUP BY category
+    ORDER BY COUNT(*) DESC
+    LIMIT 1
+)
+SELECT 
+    r.category,
+    COUNT(*) AS total_personas,
+    SUM(CASE WHEN r.buy_again = 'Yes' THEN 1 ELSE 0 END) AS buy_again_yes,
+    ROUND(
+        100.0 * SUM(CASE WHEN r.buy_again = 'Yes' THEN 1 ELSE 0 END)
+        / COUNT(*),
+        2
+    ) AS porcentaje_buy_again
+FROM survey_database.registros r
+JOIN top_category t
+    ON r.category = t.category
+GROUP BY r.category;
+
+
+-- =========================================
+-- 3. RANGO DE EDAD QUE COMPRA MÁS
+-- =========================================
+SELECT 
+    age_range,
+    COUNT(*) AS total_compras
+FROM survey_database.registros
+GROUP BY age_range
+ORDER BY total_compras DESC
+LIMIT 1;
+
+
+-- =========================================
+-- 4. % DE PERSONAS QUE ES PRIMERA COMPRA
+-- =========================================
+SELECT 
+    ROUND(
+        100.0 * SUM(CASE WHEN first_purchase = 'Yes' THEN 1 ELSE 0 END)
+        / COUNT(*),
+        2
+    ) AS porcentaje_first_purchase_yes
+FROM survey_database.registros;
+
+
+-- =========================================
+-- 5. EN QUÉ CATEGORÍA OCURRE LA PRIMERA COMPRA
+--    (DISTRIBUCIÓN EN %)
+-- =========================================
+SELECT 
+    category,
+    COUNT(*) AS personas_first_purchase,
+    ROUND(
+        100.0 * COUNT(*) / SUM(COUNT(*)) OVER (),
+        2
+    ) AS porcentaje
+FROM survey_database.registros
+WHERE first_purchase = 'Yes'
+GROUP BY category
+ORDER BY personas_first_purchase DESC;
