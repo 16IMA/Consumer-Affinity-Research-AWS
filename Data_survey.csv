@@ -1,0 +1,22 @@
+"age_range","city","country","first_purchase","category","purchase_amount_range","purchase_channel","quality_score","delivery_score","support_score","ease_score","value_score","nps_score","source_channel","improvement_text","response_id","submitted_at","buy_again"
+"35-44","BADALONA","SPAIN","Yes","HOME","$100 - $300","APP","5","4","5","5","4","8","WORD OF MOUTH","","res-1778052896401-185","2026-05-06T07:34:56.401Z","Yes"
+"25-34","Madrid","ES","Yes","WOMAN","UNDER $100","APP","4","5","5","5","4","9","SOCIAL MEDIA","Top quality","res-1778052854002-441","2026-05-06T07:34:14.002Z","Yes"
+"35-44","Barcelona","España","No","HOME","$300 - $700","WEB","5","4","5","4","5","9","SOCIAL MEDIA","more stuff","res-1778050079871-451","2026-05-06T06:47:59.871Z",
+"25-34","MADRID","ESPAÑA","Yes","WOMAN","$100 - $300","APP","5","4","4","4","5","2","WORD OF MOUTH","Bonita marca","res-1778049993737-312","2026-05-06T06:46:33.737Z",
+"35-44","MADRID","ESPAÑA","No","MAN","$100 - $300","APP","2","5","5","5","5","9","ADVERTISING","","res-1778050154793-422","2026-05-06T06:49:14.793Z",
+"35-44","Bilbao","Spain","Yes","HOME","$100 - $300","APP","4","5","5","4","5","8","SOCIAL MEDIA","Very good shop","res-1778052869923-67","2026-05-06T07:34:29.923Z","Yes"
+"35-44","Málaga","España","Yes","KIDS","$100 - $300","PHYSICAL STORE","4","5","5","3","3","8","ADVERTISING","Excelente trabajo no hay nada que mejorar","res-1778052903887-73","2026-05-06T07:35:03.887Z","No"
+"35-44","CADIZ","ESPAÑA","Yes","MAN","$100 - $300","APP","5","5","5","5","5","9","WORD OF MOUTH","Volvería a comprar","res-1778050055013-598","2026-05-06T06:47:35.013Z",
+"35-44","COSLADA","España","No","KIDS","OVER $700","WEB","4","3","3","3","4","8","WORD OF MOUTH","Me gustó","res-1778050066880-439","2026-05-06T06:47:46.880Z",
+"45-54","Miami","United States","Yes","HOME","UNDER $100","WEB","5","3","4","4","4","7","SOCIAL MEDIA","Customer service was not very helpful.","res-1778052926919-667","2026-05-06T07:35:26.919Z","Yes"
+"25-34","sevilla","españa","Yes","WOMAN","$100 - $300","APP","5","2","5","3","1","10","SOCIAL MEDIA","todo esta perfecto!!","res-1778052916554-334","2026-05-06T07:35:16.554Z","Yes"
+"45-54","BARCELONA","","Yes","HOME","$100 - $300","WEB","5","5","4","4","5","10","SOCIAL MEDIA","","res-1778050170259-7","2026-05-06T06:49:30.259Z",
+,"Sevilla","ES","No","HOME","$300 - $700","PHYSICAL STORE","5","2","5","5","3","6","ADVERTISING","Vamos ese equipo!!","res-1778052883965-413","2026-05-06T07:34:43.965Z","Yes"
+"25-34","COSLADA","España","Yes","WOMAN","$100 - $300","WEB","5","4","4","4","5","9","ADVERTISING","Pueden mejorar","res-1778050180731-592","2026-05-06T06:49:40.731Z",
+"35-44","Barcelona","España","Yes","WOMAN","$100 - $300","WEB","4","5","4","5","4","8","SOCIAL MEDIA","hola","res-1778050031288-235","2026-05-06T06:47:11.288Z",
+"35-44","Barcelona","España","Yes","WOMAN","$100 - $300","WEB","5","4","5","4","5","8","SOCIAL MEDIA","nothing","res-1778052944980-399","2026-05-06T07:35:44.980Z","Yes"
+"25-34","COSLADA","España","No","WOMAN","$100 - $300","APP","4","5","5","4","5","7","ADVERTISING","Gracias por vuestra atención","res-1778052924129-406","2026-05-06T07:35:24.129Z","Yes"
+"25-34","MADRID","ESPAÑA","Yes","WOMAN","UNDER $100","PHYSICAL STORE","5","4","5","5","5","9","SOCIAL MEDIA","Todo OK","res-1778052909581-984","2026-05-06T07:35:09.581Z","Yes"
+"25-34","Santander","España","No","MAN","$100 - $300","WEB","4","3","2","1","3","4","SOCIAL MEDIA","Mala calidad","res-1778050117046-945","2026-05-06T06:48:37.046Z",
+"45-54","BADAJOZ","ESPAÑA","Yes","WOMAN","OVER $700","PHYSICAL STORE","5","5","5","2","2","8","SOCIAL MEDIA","TODO PERFECTO","res-1778050086945-486","2026-05-06T06:48:06.945Z",
+"25-34","Madrid","Spain","No","WOMAN","OVER $700","PHYSICAL STORE","5","3","5","4","4","8","SOCIAL MEDIA","","res-1778052935258-411","2026-05-06T07:35:35.258Z","Yes"
